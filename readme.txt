@@ -4,6 +4,7 @@ add can add file to repository
 commit can add multifile to repository onceand 
 mention some info about that
 Git has a mutable index called stage
+Git tracks changes
 
 command:
 current dir is repository dir
