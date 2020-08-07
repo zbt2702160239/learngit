@@ -24,3 +24,5 @@ git checkout -- filename(roll back you change)
 1:you don't put it to stage,then you only use checkout
 2:you have put it to stage,you not only to [git reset HEAD filename]
 and do the first statu)
+git rm filename git commit -m ""(delete the file) (or rm filename)
+(if you not commit than you can chechout)
