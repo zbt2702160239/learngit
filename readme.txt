@@ -16,5 +16,11 @@ git init
 git add filename
 git commit -m infoabout
 git log(view edition info) --pretty=oneline(oneline display)
-get reset --hard HEAD(^+)or editionid 
-get reflog(reset file log)
+git reset --hard HEAD(^+)or editionid 
+git reflog(reset file log)
+git status(view the working space status)
+git checkout -- filename(roll back you change)
+(three hava two condition:
+1:you don't put it to stage,then you only use checkout
+2:you have put it to stage,you not only to [git reset HEAD filename]
+and do the first statu)
