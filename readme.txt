@@ -6,6 +6,10 @@ mention some info about that
 Git has a mutable index called stage
 Git tracks changes of files.
 
+Git is recording revise,if you have modify the file once,
+you need to add this revise to stage(temporary storage),
+then commit it to save this revise.
+
 command:
 current dir is repository dir
 git init
