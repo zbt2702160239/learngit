@@ -30,3 +30,4 @@ create a new repository on github
 git remote add origin https github repository address
 first time command: git push -u origin master,
 then git push origin master
+git clone github address
