@@ -26,3 +26,7 @@ git checkout -- filename(roll back you change)
 and do the first statu)
 git rm filename git commit -m ""(delete the file) (or rm filename)
 (if you not commit than you can chechout)
+create a new repository on github
+git remote add origin https github repository address
+first time command: git push -u origin master,
+then git push origin master
