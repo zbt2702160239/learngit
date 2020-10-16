@@ -47,3 +47,4 @@ git stash list(to view you recent work)
 git stash apply(recover recent work and you need to remove it from stash)
 git stash drop (delete this stash)
 git stash pop(recover and delete) 
+git branch -D branchname (force delete) if you want to discard a unused branch
