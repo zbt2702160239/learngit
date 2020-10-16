@@ -37,3 +37,6 @@ git checkout -b (branch name) create and switch to new branch
 git branch (branch name) create the new branch
 git checkout (branch name) switch to the branch
 git branch     view the current branch
+first switch to master
+git merge (the branch you want to merge branch name)
+git branch -d (the branch you want to delete branch name)
