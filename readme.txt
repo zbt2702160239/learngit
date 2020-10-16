@@ -5,6 +5,7 @@ commit can add multifile to repository onceand
 mention some info about that
 Git has a mutable index called stage
 Git tracks changes of files.
+add a line
 
 Git is recording revise,if you have modify the file once,
 you need to add this revise to stage(temporary storage),
