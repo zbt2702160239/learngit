@@ -41,4 +41,9 @@ first switch to master
 git merge (the branch you want to merge branch name)
 git branch -d (the branch you want to delete branch name)
 git log --graph view the graph of branch merge
-add a change
+git stash save current workspace(you can work on master branch to fix bug)
+now you need to back to you recent branch and go on to work
+git stash list(to view you recent work)
+git stash apply(recover recent work and you need to remove it from stash)
+git stash drop (delete this stash)
+git stash pop(recover and delete) 
