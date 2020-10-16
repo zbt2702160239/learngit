@@ -40,3 +40,4 @@ git branch     view the current branch
 first switch to master
 git merge (the branch you want to merge branch name)
 git branch -d (the branch you want to delete branch name)
+creating a new branch is quick & simple
