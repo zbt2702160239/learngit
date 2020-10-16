@@ -32,3 +32,8 @@ git remote add origin https github repository address
 first time command: git push -u origin master,
 then git push origin master
 git clone github address
+
+git checkout -b (branch name) create and switch to new branch
+git branch (branch name) create the new branch
+git checkout (branch name) switch to the branch
+git branch     view the current branch
