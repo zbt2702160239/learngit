@@ -54,3 +54,12 @@ if you want to push another branch :git push origin another branch
 when you want to multipeople work,you file used the same name,when you want to push it ,than the conflict append
 use [git pull](try to merge) to get the same name file to comapre , modify and submit(during this pocess please follow the tips to fix this problem)
  now you have fix the conflict,you need to commmit and push it again
+ switch to the branch you want to tag [git tag tagname]
+ git tag (view all tag)
+ git tag <tagname> <commitID> (set tag in exact commit)
+ git tag -a <tagname> -m <info> <commitID>(base on up command add info)
+ git show tagname(view this tag info)
+ git tag -d tagname (delete the tag)
+ if the tag have push to remote,first delete the local tag,htan [git push origin:refs/tags/tagname]
+ git push origin tagname(push tag to remote)
+ git push origin --tags(push all tag to remote)
