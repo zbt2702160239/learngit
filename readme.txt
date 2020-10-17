@@ -48,3 +48,9 @@ git stash apply(recover recent work and you need to remove it from stash)
 git stash drop (delete this stash)
 git stash pop(recover and delete) 
 git branch -D branchname (force delete) if you want to discard a unused branch
+git remote (view the remote repository)
+git remote -v(view more remote info) 
+if you want to push another branch :git push origin another branch
+when you want to multipeople work,you file used the same name,when you want to push it ,than the conflict append
+use [git pull](try to merge) to get the same name file to comapre , modify and submit(during this pocess please follow the tips to fix this problem)
+ now you have fix the conflict,you need to commmit and push it again
